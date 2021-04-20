@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: black;
+	height: 60px;
+	width: 94%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.title{
+ font-size: 36px;
+color: white;
+padding-top: 8px;
+}
+.menu{
+ list-style: none;
+ position: absolute;
+ top: 0;
+ right: 3%;
+}
+.menu li{
+	display: inline-block;
+	padding-top: 17px;
+}
+.menu li>a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.bg{
+	background: #e2e2e2;
+	width: 93%;
+	padding-left: 3.5%;
+	padding-right: 3.5%;
+}
+h2{
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+p{
+	font-size: 19px;
+	line-height: 1.4em;
+}
