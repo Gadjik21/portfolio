@@ -1,0 +1,121 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	font-family: 'Tahoma', sans-serif;
+}
+.header{
+	margin-top: 120px;
+	margin-bottom: 80px;
+}
+.header h2{
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
+}
+.header h1{
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 0;
+}
+.section-1{
+	height: 315px;
+	width: 929px;
+	position: relative;
+	margin: 0 auto;
+}
+form{
+	display: inline-block;
+	width: 361px;
+	height: 310px;
+	border: 5px solid #2727d9;
+	position: absolute;
+	top: 0;
+	margin-left: 30px;
+}
+.form-header{
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 36px;
+	margin-bottom: 30px;
+}
+input{
+	width: 297px;
+	height: 49px;
+	padding: 18px 18px 18px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 9px;
+	outline: none;
+}
+input::placeholder{
+	font-size: 18px;
+	color: #999999;
+}
+.section-1 button{
+	background: #3c3cdd;
+	width: 296px;
+	height: 64px;
+	display: block;
+	margin: auto;
+	margin-top: 14px;
+	border: none;
+}
+.section-1 button p{
+	color: white;
+	font-size: 18px;
+}
+h1{
+	font-size: 24px;
+	color: #333333;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 80px;
+	text-transform: uppercase;
+}
+section{
+	width: 929px;
+	height: 122px;
+	display: block;
+	margin: auto;
+	margin-bottom: 95px;
+}
+.block{
+	display: inline-block;
+	width: 130px;
+	height: 130px;
+	margin-left: 90px;
+}
+section img{
+	display: block;
+	margin: auto;
+}
+.block p{
+	font-weight: 700;
+	text-align: center;
+}
+button{
+	background: #3c3cdd;
+	width: 296px;
+	height: 64px;
+	display: block;
+	margin: auto;
+	margin-top: 14px;
+	border: none;
+}
+button p {
+	color: white;
+	font-size: 18px;
+}
+.images{
+	width: 970px;
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+}
+.images img{
+	margin-left: 20px;
+}
