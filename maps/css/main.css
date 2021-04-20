@@ -1,0 +1,64 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+html{
+	font-size: 10px;
+}
+main{
+	position: relative;
+}
+form{
+	padding: 4rem 0;
+	color: #ffffff;
+	width: 35rem;
+	height: 70vh;
+	text-align: center;
+	background-color: #c60b0b;
+	position: absolute;
+	top: 0;
+	left: 20%;
+}
+form h4{
+	font-size: 3rem;
+}
+form p{
+	font-size: 1.8rem;
+}
+form a {
+	color: #ffffff;
+}
+footer{
+	display: flex;
+	background-color: #fff;
+	justify-content: space-around;
+	align-items: center;
+}
+footer img{
+	width: 60px;
+	height: 60px;
+	margin-right: 2rem;
+}
+footer span{
+	display: flex;
+	align-items: center;
+	color: #000000;
+}
+footer p {
+	font-size: 1.4rem;
+	color: #666666;
+}
+footer .right h1{
+	font-size: 2.2rem;
+	margin: 1.5rem 0 1.5rem 0;
+	padding: 0;
+	color: #000000;
+}
+footer .right p{
+	margin: 0;
+	padding: 0;
+	color: #000000;
+}
