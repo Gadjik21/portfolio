@@ -1,0 +1,28 @@
+
+.text-box{
+	padding-top: 2rem;
+}
+.result {
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+.fonts {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem;
+}
+small {
+	font-size: 1.3rem;
+}
+.Open{
+	font-family: 'Open Sans';
+}
+.Bebas{
+	font-family: 'Bebas Neue';
+}
+.Lato{
+	font-family: 'Lato';
+}
+.Lobster{
+	font-family: 'Lobster';
+}
