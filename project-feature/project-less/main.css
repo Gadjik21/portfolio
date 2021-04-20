@@ -1,0 +1,426 @@
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  src: url('../fonts/ProximaNova-Bold.eot');
+  src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Bold.woff2') format('woff2'), url('../fonts/ProximaNova-Bold.woff') format('woff'), url('../fonts/ProximaNova-Bold.ttf') format('truetype'), url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proxima Nova Reg';
+  src: url('../fonts/ProximaNova-Regular.eot');
+  src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Regular.woff2') format('woff2'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype'), url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+input {
+  outline: none;
+}
+.slick-active {
+  outline: none;
+}
+.slick-slide {
+  outline: none;
+}
+.prev {
+  background: url(../img/left-arrow.svg) center no-repeat;
+  width: 3rem;
+  height: 3rem;
+  background-size: 100%;
+  border: none;
+  position: absolute;
+  top: 50%;
+  margin-top: -3rem;
+  z-index: 1;
+}
+.prev:hover {
+  background: url(../img/left-arrow-hover.svg);
+  outline: none;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+.prev:focus {
+  outline: none;
+}
+.next {
+  background: url(../img/right-arrow.svg) center no-repeat;
+  width: 3rem;
+  height: 3rem;
+  background-size: 100%;
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -3rem;
+  z-index: 1;
+}
+.next:hover {
+  background: url(../img/right-arrow-hover.svg);
+  outline: none;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+.next:focus {
+  outline: none;
+}
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  font-family: 'Proxima Nova Reg';
+}
+html {
+  font-size: 10px;
+}
+main {
+  padding: 3rem 0;
+  background: #ffffff url(../img/Слой_15.png) center no-repeat;
+  background-size: cover;
+  padding-bottom: 6rem;
+}
+main .mobile-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background: #fff;
+  padding: 2.5rem 1rem;
+  margin-bottom: 2.2rem;
+}
+main .mobile-header .phone {
+  width: 50%;
+}
+main .mobile-header .phone-block {
+  font-size: 2rem;
+  color: #1a1820;
+  font-family: 'Proxima Nova Bold';
+}
+main .mobile-header .wrap {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+main .mobile-header .wrap button {
+  background: #ffb504;
+  border: 1px solid yellow;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  width: 70%;
+  height: 3.6rem;
+  color: #ffffff;
+  font-family: 'Proxima Nova Bold';
+  text-transform: uppercase;
+}
+main .mobile-header .wrap button:hover {
+  background: red;
+  -webkit-transition: all .6s;
+  transition: all .6s;
+}
+main .mobile-logo {
+  display: block;
+  margin: 0 auto;
+}
+main .header .phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .header .phone-block {
+  font-size: 2rem;
+  color: #1a1820;
+  font-family: 'Proxima Nova Bold';
+}
+main .header .wrap {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .header .wrap button {
+  background: #ffb504;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  height: 4.6rem;
+  width: 100%;
+  color: #ffffff;
+  font-family: 'Proxima Nova Bold';
+  text-transform: uppercase;
+}
+main .header .wrap button:hover {
+  background: red;
+  -webkit-transition: all .6s;
+  transition: all .6s;
+}
+main .main-content {
+  margin-top: 6rem;
+}
+main .main-content h1 {
+  font-size: 4rem;
+  color: #292929;
+  font-family: 'Proxima Nova Bold';
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+main .main-content .main-content-text {
+  font-size: 2.4rem;
+  color: #292929;
+  margin-bottom: 3rem;
+}
+main .main-content .sub-button {
+  width: 22.5rem;
+  height: 10rem;
+  color: #ffffff;
+  background: #70c849;
+  border: none;
+  font-size: 1.8rem;
+  font-family: 'Proxima Nova Bold';
+  margin-bottom: 1rem;
+}
+main .main-content .sub-button strong {
+  font-size: 3rem;
+}
+main .main-content h2 {
+  font-size: 22px;
+  font-family: 'Proxima Nova Bold';
+  text-transform: uppercase;
+  margin-top: 3.65rem;
+}
+main .main-content form {
+  display: block;
+  background: #ffffff;
+  color: #292929;
+}
+main .main-content form .text-form {
+  margin-bottom: 2.2rem;
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 1.9rem;
+}
+main .main-content form strong {
+  font-family: 'Proxima Nova Bold';
+}
+main .main-content form label {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  padding: .7rem;
+  background-color: #ffffff;
+  font-size: 1.3rem;
+}
+main .main-content form .main-form-input {
+  display: block;
+  margin: 2.5rem auto;
+  width: 256px;
+  height: 47px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  font-size: 1.7rem;
+}
+main .main-content form .main-form-button {
+  width: 247px;
+  height: 55px;
+  display: block;
+  margin: auto;
+  background: #ffb504;
+  border: 1px solid #ffb504;
+  border-radius: 8px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  margin-top: 3rem;
+}
+main .main-content form .main-form-button:hover {
+  background: red;
+  -webkit-transition: all .6s;
+  transition: all .6s;
+}
+main .main-content form .form-sub {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #565656;
+  margin-top: 2.1rem;
+}
+.features {
+  padding: 10rem 0;
+  color: #1a1820;
+  text-align: center;
+}
+.features-header {
+  font-size: 3.6rem;
+  font-family: 'Proxima Nova Bold';
+}
+.features-block {
+  margin-top: 12.5rem;
+  margin-left: 1rem;
+}
+.features-block img {
+  height: 7rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+.features-block h3 {
+  font-size: 2rem;
+  font-family: 'Proxima Nova Bold';
+}
+.features-block p {
+  font-size: 1.6rem;
+  font-family: Myriad Pro;
+  margin-top: 3.5rem;
+  width: 102%;
+}
+.features-block a {
+  color: #4aa223;
+}
+@media (min-width: 1200px) {
+  main .main-content form {
+    width: 100%;
+    height: 100%;
+    padding: 0 1.5rem;
+  }
+  .mobile {
+    display: none;
+  }
+}
+@media (max-width: 1199px) {
+  main .main-content form {
+    width: 90%;
+    height: 100%;
+    float: right;
+  }
+  main .main-content form label {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-40%) translateY(-50%);
+            transform: translateX(-40%) translateY(-50%);
+  }
+  .mobile {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  main {
+    background-position: right;
+  }
+  main .header {
+    margin-bottom: 0;
+  }
+  main .main-content {
+    text-align: center;
+  }
+  main .main-content form {
+    padding: 0 2.6rem;
+    width: 90%;
+    height: 105%;
+    display: block;
+    margin: auto;
+    position: relative;
+    float: none;
+  }
+  main .main-content form label {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+  }
+  .mobile {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .main-content form {
+    position: relative;
+  }
+  .main-content form label {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-40%) translateY(-50%);
+            transform: translateX(-40%) translateY(-50%);
+  }
+  .mobile {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  main {
+    background-position: left;
+    padding: 0 0 6rem;
+  }
+  main .main-content {
+    margin-top: 4rem;
+  }
+  main .main-content h1 {
+    font-size: 3rem;
+  }
+  main form {
+    width: 95% !important;
+    height: 36rem;
+    position: relative;
+    float: none;
+  }
+  main form .text-form {
+    white-space: pre;
+  }
+  main form label {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-40%) translateY(-50%);
+            transform: translateX(-40%) translateY(-50%);
+  }
+  main form input {
+    width: 90% !important;
+    height: 60px !important;
+  }
+  main form button {
+    width: 85% !important;
+  }
+  .header {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .features {
+    padding: 5rem 0;
+  }
+}
+@media (max-width: 400px) {
+  .main-content {
+    margin-top: 4rem;
+  }
+  .main-content h1 {
+    font-size: 2.5rem !important;
+  }
+}
+@media (max-width: 380px) {
+  .mobile-header .phone {
+    width: 38% !important;
+  }
+  .mobile-header .phone-block {
+    font-size: 14px !important;
+  }
+  .mobile-header .wrap {
+    width: 62% !important;
+  }
+  .main-form-input {
+    width: 100% !important;
+  }
+  .main-form-button {
+    width: 100% !important;
+  }
+}
