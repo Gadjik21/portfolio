@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Всплывающие окна</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+      <div class="box">
+        <a class="a" href="#modall" data-toggle="modal">Удалить файл </a>
+      </div>
+	<!--	<button class="btn btn-success" data-toggle="modal" data-target="#my-modal">  Ссылка на модальное окно 2 </button> -->
+
+	<!-- Модальное окно от Bootstrap -->
+<div class="modal fade" id="modall">
+	<!-- Само белое модальное окно -->
+  <div class="modal-dialog" >
+  	<!-- Содержимое модального окна -->
+    <div class="modal-content">
+    	<!-- Шапка модального окна -->
+      <div class="modal-header">
+      	<!-- Кнопка закрыть -->
+        <button type="button" style="position: absolute; margin-left: 85%" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <!-- Заголовок модального окна -->
+        <h4 class="modal-title">Вы действительно хотите удалить файл!?</h4>
+      </div>
+      <!-- Тело модального окна -->
+      <div class="modal-body">
+        <p> После удаления файла, восстановить будет невозможно. </p>
+      <!-- Подвал модального окна -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Нет</button>
+        <button style="background-color: red" href="#yes" data-toggle="modal" class="btn btn-primary">
+        <a class="d">Да</a>
+      </button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="modal fade dd" id="yes">
+  <div class="modal-dialog" >
+    <div class="modal-content">
+      <div class="modal-header">        
+        <button type="button" style="position: absolute; margin-left: 85%" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>        
+        <h4 class="modal-title"> 
+        Файл удалён успешно!!!
+      </h4>
+      </div>
+      <div class="modal-body">
+        <p> Закройте окно
+          <br>
+          <br>
+          <br>
+         </p>
+         <div class="modal-footer">
+        <button type="button" data-dismiss="modal" id="my-modal1" class="btn btn-primary">Закрыть </button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<lnk rel="stylesheet" href="../js/jquery.magnific-popup.js">
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<scrit src="../js/jquery.magnific-popup.min.js"></script>
+</body>
+</html>
